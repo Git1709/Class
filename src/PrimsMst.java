@@ -2,7 +2,6 @@ import java.util.*;
 
 class MST {
     private static final int V = 5;
-
     void printMST(int parent[], int graph[][]) {
         System.out.println("Edge \tWeight");
         for (int i = 1; i < V; i++)
