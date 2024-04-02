@@ -51,11 +51,14 @@ public class QuickSort {
     public static void main(String args[]) {
         int arr[] = {10, 7, 8, 9, 1, 5};
         int n = arr.length;
+for(int x:arr){
+    System.out.print(x+" ");
+}
 
         QuickSort ob = new QuickSort();
         ob.quickSort(arr, 0, n - 1);
 
-        System.out.println("Sorted array:");
+        System.out.println("\nSorted array:");
         ob.printArray(arr);
     }
 }

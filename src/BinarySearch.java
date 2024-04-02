@@ -27,7 +27,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
-        int target = 13;
+        int target = 1;
         int result = binarySearch(arr, target);
         if (result != -1) {
             System.out.println("Element found at index: " + result);
